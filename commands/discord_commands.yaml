@@ -1,10 +1,10 @@
 - name: hello
   description: Say hello!
 
-- name: echo
-  description: Echo message back to sender.
+- name: prospect-status
+  description: Get ownership status of a prospect.
   options:
-    - name: message
-      description: The message to echo back.
+    - name: full-name
+      description: First and Last name of prospect.
       type: 3 # string
       required: true
