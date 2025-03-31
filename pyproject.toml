@@ -1,0 +1,23 @@
+[project]
+name = "prospector-bot"
+version = "0.1.0"
+description = "Discord bot to support TGL Fantasy Baseball"
+readme = "README.md"
+requires-python = ">= 3.11"
+dependencies = [
+    "flask",
+    "mangum",
+    "asgiref",
+    "discord-interactions",
+]
+
+[dependency-groups]
+dev = [
+  "requests",
+  "dotenv",
+  "pyyaml"
+]
+
+lint = [
+  "pylint"
+]
